@@ -41,7 +41,7 @@ export const Marketing = () => {
                     </div>
                     
                 </div>
-                <img src="https://www.zonoapp.com/img/credit-zono-home.png"  alt="ss" className='w-[130px] h[130px]'/>
+                <img src="https://www.zonoapp.com/img/credit-zono-home.png"  alt="ss" className='w-[130px] h[100px]'/>
             </div>
         </div>
         

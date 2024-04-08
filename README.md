@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Installation 
+1. npx create-next-app@latest my-app
+2.install nextUi(npm i @nextui-org/react framer-motion)
+3.react Scroll
 
-## Getting Started
+### Description
 
-First, run the development server:
+Created a distributors Router page (src/app/distributors/page.js).It has some components 
+1. DistributorTab:Different Tabs for Distributor Page (what does Zotok do?,ordering,collections) position of DistributorTab should be fixed
+2.DistributorTexts:content of each DistributorTab 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Pending 
+1.Need to add react scroll: It help to smooth scrolling of distributor content 
+2.add dynamic Images: I used only static url for Image ,But Image should be svg 
+3. I was add useState to change the active tab of Distributor 
+4.I created every Tab Description has one Component But It simply created with only one component and send props to It...
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
