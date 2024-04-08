@@ -7,7 +7,7 @@ import { MdOutlineAirlineSeatReclineExtra } from "react-icons/md";
 
 export const Ordering = () => {
   return (
-    <div className='flex'  id='order'>
+    <div className='flex'  id='Ordering'>
         <div className='pt-10 pl-2 pb-[150px]'>
             <div className=''>
                 <h1 className='text-bold text-3xl'>How does it help me in receiving orders in multiple formats?</h1>
@@ -42,7 +42,7 @@ export const Ordering = () => {
                     </div>
                     
                 </div>
-                <img src="https://www.zonoapp.com/img/home-computer.png"  alt="ss" className='w-[130px] h[130px]'/>
+                <img src="https://www.zonoapp.com/img/home-computer.png"  alt="ss" className='w-[200px] h[130px]'/>
             </div>
         </div>
         

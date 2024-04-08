@@ -7,7 +7,7 @@ import { MdOutlineAirlineSeatReclineExtra } from "react-icons/md";
 
 export const Reconcilliation = () => {
   return (
-    <div className='flex'>
+    <div className='flex' id="Reconcilation">
         <div className='pt-10 pl-2 pb-[150px]'>
             <div className=''>
                 <h1 className='text-bold text-3xl'>How to manage varied payments (offline and online)</h1>

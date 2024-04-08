@@ -7,7 +7,7 @@ import { MdOutlineAirlineSeatReclineExtra } from "react-icons/md";
 
 export const ZotokDescription = () => {
   return (
-    <div className='flex'>
+    <div className='flex' id='What Does Zotalk do?'>
         <div className='pt-10 pl-2 pb-[150px]' id='zotok'>
             <div className=''>
                 <h1 className='text-bold text-3xl'>What Can Zotok do?</h1>

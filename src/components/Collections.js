@@ -7,7 +7,7 @@ import { MdOutlineAirlineSeatReclineExtra } from "react-icons/md";
 
 export const Collections = () => {
   return (
-    <div className='flex'>
+    <div className='flex' id="Collections">
         <div className='pt-10 pl-2  pb-[150px]'>
             <div className=''>
                 <h1 className='text-bold text-3xl'>I have problem with payment with payment collections</h1>
@@ -42,7 +42,7 @@ export const Collections = () => {
                     </div>
                     
                 </div>
-                <img src="https://www.zonoapp.com/img/credit-zono-home.png"  alt="ss" className='w-[130px] h[130px]'/>
+                <img src="https://www.zonoapp.com/img/credit-zono-home.png"  alt="ss" className='w-[200px] h[130px]'/>
             </div>
         </div>
         

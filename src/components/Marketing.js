@@ -7,7 +7,7 @@ import { MdOutlineAirlineSeatReclineExtra } from "react-icons/md";
 
 export const Marketing = () => {
   return (
-    <div className='flex'>
+    <div className='flex' id='Marketing'>
         <div className='pt-10 pl-2  pb-[150px]'>
             <div className=''>
                 <h1 className='text-bold text-3xl'>Does Zono offer marketing support for customer communication?</h1>
@@ -41,7 +41,7 @@ export const Marketing = () => {
                     </div>
                     
                 </div>
-                <img src="https://www.zonoapp.com/img/credit-zono-home.png"  alt="ss" className='w-[130px] h[100px]'/>
+                <img src="https://www.zonoapp.com/img/credit-zono-home.png"  alt="ss" className='w-[200px] h[130px]'/>
             </div>
         </div>
         
