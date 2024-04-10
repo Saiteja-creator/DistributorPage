@@ -9,7 +9,7 @@ const DistributorTab=()=>{
     const [tabItem,settabItem] = useState(StaticTab[0])
     console.log(tabItem)
     const clickEvent=(tabDetails)=>{
-        console.log(tabDetails,"tabDetails")
+       
         settabItem(tabDetails)
       }
     return (

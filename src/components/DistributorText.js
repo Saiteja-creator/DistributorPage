@@ -1,12 +1,11 @@
 import React from 'react'
-import { Ordering } from './Ordering'
-import { Collections } from './Collections'
-import { Reconcilliation } from './Reconcilliation'
-import { Marketing } from './Marketing'
+
 import { ZoTokDistributor } from './ZoTokDistributor'
 
 import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/react";
-import { ZotokDescription } from './ZotokDescription'
+
+import { StaticTabDescription } from '../../utils/distribtutorTabData'
+import { ZotokTabDescription } from './ZotokTabDescription'
 
 export const DistributorText = () => {
   return (
@@ -14,11 +13,9 @@ export const DistributorText = () => {
         <ZoTokDistributor/>
         <Card className='bg-white'>
             <CardBody >
-                <ZotokDescription/>
-                <Ordering/>
-                <Collections/>
-                <Reconcilliation/>
-                <Marketing/>
+                {StaticTabDescription.map((eachTabDes)=>(
+                  <ZotokTabDescription TabDeatils={eachTabDes} key={eachTabDes.Heading}/>
+                ))}
                 
             </CardBody>
         </Card>

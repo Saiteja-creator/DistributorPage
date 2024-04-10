@@ -11,14 +11,14 @@ export default function TabItem({tabDetails,isActive,clickEvent}){
     
    return (
     <li>
-      <a href={`#${fontText}`} >
+      <Link to={fontText} smooth={true} duration={500} >
           <MyButton  className={isActive ? 'bg-blue-500 text-white' : 'bg-transparent text-gray-400 text-sm'} onClick={() => handleClick()} >
               <div className="flex flex-row items-center w-[130px] ml-3 gap-2">
                 <div>{fontIcon}</div>
                 <p className="text-xs">{fontText}</p>
               </div> 
             </MyButton>
-        </a>
+        </Link>
     </li>
    )
 }
